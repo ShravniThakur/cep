@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8934',
+        target: 'https://cep-z7ow.onrender.com',
         changeOrigin: true,
       },
     },
